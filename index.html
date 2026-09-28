@@ -1,27 +1,138 @@
-# BoardSync — Privacy Policy & Support
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BoardSync — Privacy Policy & Support</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #1d1d1f;
+      --text-secondary: #6e6e73;
+      --card-bg: #f5f5f7;
+      --accent: #0066cc;
+      --border: #d2d2d7;
+    }
 
-Last updated: September 2026
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #000000;
+        --text: #f5f5f7;
+        --text-secondary: #86868b;
+        --card-bg: #1c1c1e;
+        --accent: #2997ff;
+        --border: #38383a;
+      }
+    }
 
-## 1. Privacy Policy
-BoardSync is designed with user privacy in mind.
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      margin: 0;
+      padding: 40px 20px;
+    }
 
-* **Personal Data:** BoardSync does not collect, sell, or monetize your personal information.
-* **App Data & Syncing:** Any boards, tasks, entries, or data you create or manage within BoardSync remain on your device (or in your private personal iCloud storage if iCloud sync is enabled). We do not transmit or store your board content on external proprietary servers.
-* **Third-Party Tracking:** BoardSync does not include third-party advertising SDKs, tracking cookies, or data brokers.
-* **Data Retention:** Because we do not run centralized accounts or external user databases, we hold no user data.
+    .container {
+      max-width: 680px;
+      margin: 0 auto;
+    }
 
-## Third-Party AI Processing (Google Gemini)
-To provide intelligent board organization and processing features, BoardSync transmits certain user-provided content (such as board text or prompts) to the **Google Gemini API**.
+    header {
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 20px;
+    }
 
-* **Purpose:** This data is transmitted solely in real-time to generate responses and provide core app functionality.
-* **Privacy & Security:** Data sent to the Gemini API is processed in accordance with Google's API service terms. We do not use your inputs or generated content to train external public models, and we do not sell your content to third parties.
-* **Third-Party Policy:** For details on how Google handles API data, please review the [Google Privacy Policy](https://policies.google.com/privacy).
+    h1 {
+      font-size: 28px;
+      font-weight: 700;
+      margin: 0 0 8px 0;
+      letter-spacing: -0.5px;
+    }
 
-## 2. Support
-For technical support, feature requests, or bug reports regarding BoardSync:
+    .date {
+      color: var(--text-secondary);
+      font-size: 14px;
+      margin: 0;
+    }
 
+    h2 {
+      font-size: 20px;
+      font-weight: 600;
+      margin-top: 36px;
+      margin-bottom: 14px;
+      color: var(--text);
+    }
 
+    p {
+      margin: 0 0 14px 0;
+    }
 
-* **Developer:** Jon Stensland-King
-* **Email:** stenslandkingjon@gmail.com
-* **Website / Issues:** [Optional: GitHub issues link or website]
+    ul {
+      margin: 0 0 20px 0;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    li strong {
+      color: var(--text);
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px 24px;
+      margin-top: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>BoardSync</h1>
+      <p class="date">Privacy Policy & Support — Last updated: September 2026</p>
+    </header>
+
+    <main>
+      <section>
+        <h2>1. Privacy Policy</h2>
+        <p>BoardSync is designed to respect and protect your privacy.</p>
+        <ul>
+          <li><strong>Personal Data:</strong> BoardSync does not sell, rent, or monetize your personal information.</li>
+          <li><strong>App Data & Storage:</strong> Any boards, tasks, entries, or notes you create remain stored locally on your device (or within your personal Apple iCloud storage if enabled). We do not store your boards on external proprietary servers.</li>
+          <li><strong>Third-Party AI Processing (Google Gemini):</strong> To provide automated organization and intelligent processing features, user-provided board content and prompts are sent in real-time to the Google Gemini API. This data is transmitted solely to perform the requested app functionality and is handled under <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google's Privacy Policy</a>. We do not use your inputs to train public AI models.</li>
+          <li><strong>Tracking & Advertising:</strong> BoardSync contains no third-party advertising SDKs, tracking cookies, or data brokers.</li>
+          <li><strong>Data Retention:</strong> Because we do not operate centralized accounts or proprietary user databases, we hold no user data.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>2. Support</h2>
+        <p>If you encounter any issues, have feedback, or need technical assistance with BoardSync, please get in touch:</p>
+        <div class="card">
+          <p><strong>Developer:</strong> Jon Stensland-King</p>
+          <p><strong>Email:</strong> <a href="mailto:stenslandkingjon@gmail.com">stenslandkingjon@gmail.com</a></p>
+          <p><strong>Project & Issues:</strong> <a href="https://github.com/mikeking1010/BoardSync" target="_blank" rel="noopener noreferrer">github.com/mikeking1010/BoardSync</a></p>
+        </div>
+      </section>
+    </main>
+  </div>
+
+</body>
+</html>
